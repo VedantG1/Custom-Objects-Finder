@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>AI Custom Objects Detector</title>
+</head>
+
+<body>
+    <center>
+        <div id="header">
+            <h1 id="heading">AI Custom Objects Detector
+                <h4 id="note">The input name which you will give should match the names present in CoCo model then only
+                    it will detect</h4>
+            </h1>
+        </div>
+        <br>
+        <br>
+        <p id="name">Object Name:</p>
+        <br>
+        <input placeholder="Type the object's name!" type="text" id="input">
+        <br>
+        <br>
+        <br>
+        <button id="start" onclick="start()" class="btn btn-success">Start</button>
+        <br>
+        <br>
+        <h3 id="noOfObjects" class="btn btn-danger"></h3>
+        <h3 id="detection" class="btn btn-warning"></h3>
+    </center>
+</body>
+
+</html>

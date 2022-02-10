@@ -1,0 +1,20 @@
+#header{
+    background-color: aquamarine;
+}
+#heading{
+    margin-top: 0;
+}
+#input{
+    width: 400px;
+    text-align: center;
+    border-radius: 3px;
+    border-width: 0;
+    height: 30px;
+}
+body{
+    background: url(background.jpg);
+}
+#name{
+    font-weight: bolder;
+    font-size: 20px;
+}
